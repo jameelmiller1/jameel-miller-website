@@ -28,7 +28,7 @@ export const defaultHero: HeroContent = {
   secondary_cta_text: "View Projects",
   secondary_cta_link: "#projects",
   // Hosted headshot for consistent loading without local asset churn.
-  image_url: "https://i.postimg.cc/L4b8jNGk/jameel-software-engineer.png",
+  image_url: "https://i.postimg.cc/QMNGKFGR/jameel-miller-nike.jpg",
   social_links: [
     { label: "Github", url: "https://github.com/jameelmiller1", icon: "github" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/jameelmiller", icon: "linkedin" },
