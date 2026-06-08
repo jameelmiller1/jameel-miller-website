@@ -105,18 +105,18 @@ export function Hero() {
           </div>
 
           {/* Right Side - Image */}
-          <div className="flex justify-center order-1 lg:order-2">
+          <div className="flex justify-center order-1 lg:order-2 pt-6 sm:pt-0">
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-72 h-72 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-3xl opacity-60"></div>
-              <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-gradient-to-tl from-accent/30 to-primary/10 rounded-full blur-3xl opacity-40"></div>
+              <div className="absolute -top-4 -left-4 w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full blur-3xl opacity-60"></div>
+              <div className="absolute -bottom-4 -right-4 w-52 h-52 sm:w-56 sm:h-56 lg:w-64 lg:h-64 bg-gradient-to-tl from-accent/30 to-primary/10 rounded-full blur-3xl opacity-40"></div>
 
               <div className="relative z-10 group">
-                <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border-4 border-background/50 shadow-2xl">
+                <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border-4 border-background/50 shadow-2xl">
                   <ImageWithFallback src={hero.image_url} alt={hero.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent"></div>
                 </div>
 
-                <div className="absolute -bottom-6 -right-6 bg-background/90 backdrop-blur-sm border border-primary/20 rounded-2xl px-6 py-4 shadow-xl">
+                <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-background/90 backdrop-blur-sm border border-primary/20 rounded-2xl px-4 sm:px-6 py-3 sm:py-4 shadow-xl">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                     <span className="text-sm">Available for hire</span>
