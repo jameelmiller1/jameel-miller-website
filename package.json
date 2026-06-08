@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "scripts": {
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {"},{"},{
     "build": "vite build",
     "dev": "vite"
   },
-  "dependencies": {
+  "dependencies": {"
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.5",
@@ -63,7 +64,7 @@
     "tw-animate-css": "1.3.8",
     "vaul": "1.1.2"
   },
-  "devDependencies": {
+  "devDependencies": {__PKG_DEVDEPS__
     "@tailwindcss/vite": "4.1.12",
     "@types/node": "^25.9.2",
     "@types/react": "^19.2.17",
@@ -85,8 +86,8 @@
       "optional": true
     }
   },
-  "pnpm": {
-    "overrides": {
+  "pnpm": {__PKG_PNPM____PKG_PNPM__"
+    "__DEBUG_MARKER__": {
       "vite": "6.3.5"
     }
   }
