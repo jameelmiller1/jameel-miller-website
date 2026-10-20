@@ -52,8 +52,6 @@ export type Project = {
 };
 
 // Project cards: replace URLs with real case studies when ready.
-const placeholderProjectImage = "https://placehold.co/600x400/png?text=Project+Preview";
-
 export const defaultProjects: Project[] = [
   {
     title: "spvce",
@@ -65,19 +63,10 @@ export const defaultProjects: Project[] = [
     demo_url: "https://x.ai/bot/5pU_wYCiw_sbWEdr4nyYB"
   },
   {
-    title: "Razberry Film App",
-    description:
-      "Full-stack e-commerce solution built with Next.js and Node.js. Features include user authentication, payment processing, and admin dashboard.",
-    image_url: placeholderProjectImage,
-    technologies: ["Next.js", "Node.js", "TypeScript", "PostgreSQL", "Docker"],
-    github_url: "#",
-    demo_url: "#"
-  },
-  {
     title: "Designs By Riah Website",
     description:
       "Comprehensive CI/CD pipeline automation using Jenkins, Docker, and Kubernetes. Reduced deployment time by 70% and improved system reliability.",
-    image_url: placeholderProjectImage,
+    image_url: "/projects/riah-preview.webp",
     technologies: ["Jenkins", "Docker", "Kubernetes", "Terraform", "AWS"],
     github_url: "#",
     demo_url: "#"
@@ -86,7 +75,7 @@ export const defaultProjects: Project[] = [
     title: "Valley Dad Society Website",
     description:
       "Interactive dashboard for real-time data visualization using React and Firebase. Handles thousands of concurrent users with live updates.",
-    image_url: placeholderProjectImage,
+    image_url: "/projects/vds-preview.webp",
     technologies: ["React", "Firebase", "Chart.js", "WebSocket", "TypeScript"],
     github_url: "#",
     demo_url: "#"
