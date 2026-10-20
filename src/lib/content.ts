@@ -56,6 +56,15 @@ const placeholderProjectImage = "https://placehold.co/600x400/png?text=Project+P
 
 export const defaultProjects: Project[] = [
   {
+    title: "spvce",
+    description:
+      "Agent engineering for your AI bots. spvce audits your agents, tests targeted improvements against a baseline, and applies changes only with your explicit approval. Available on the Grok Bot marketplace.",
+    image_url: placeholderProjectImage,
+    technologies: ["AI Agents", "Grok Bot", "Evals", "Agent Skills"],
+    github_url: "#",
+    demo_url: "https://x.ai/bot/5pU_wYCiw_sbWEdr4nyYB"
+  },
+  {
     title: "Razberry Film App",
     description:
       "Full-stack e-commerce solution built with Next.js and Node.js. Features include user authentication, payment processing, and admin dashboard.",
