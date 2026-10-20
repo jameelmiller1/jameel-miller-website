@@ -86,7 +86,7 @@ export const defaultProjects: Project[] = [
     title: "Valley Dad Society Website",
     description:
       "Interactive dashboard for real-time data visualization using React and Firebase. Handles thousands of concurrent users with live updates.",
-    image_url: placeholderProjectImage,
+    image_url: "/projects/vds-preview.webp",
     technologies: ["React", "Firebase", "Chart.js", "WebSocket", "TypeScript"],
     github_url: "#",
     demo_url: "#"
