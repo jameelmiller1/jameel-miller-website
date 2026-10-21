@@ -21,8 +21,7 @@ export function Contact() {
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">Let's Work Together</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Ready to bring your next project to life? Let's discuss how my expertise 
-            in full-stack development and DevOps can help achieve your goals.
+            Open to work in AI software development, web apps, and audio engineering.
           </p>
         </div>
         

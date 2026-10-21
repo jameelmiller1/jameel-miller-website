@@ -109,7 +109,7 @@ export default function App() {
         <footer className="bg-secondary/10 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-muted-foreground mb-6">
-              Senior Software Engineer | Full-Stack Developer | DevOps Enthusiast
+              Full-Stack AI Software Developer & Audio Engineer
             </p>
             <p className="text-sm text-muted-foreground">
               © 2026 Jameel Miller. All rights reserved.
