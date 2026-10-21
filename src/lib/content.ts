@@ -22,7 +22,7 @@ export const defaultHero: HeroContent = {
   name: "Jameel Miller",
   headline: "Full-Stack AI Software Developer & Audio Engineer",
   description:
-    "I’m an Amazon IT Support Associate with 7+ years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, DevOps fundamentals, and audio technology.",
+    "I’m an Amazon IT Support Associate with 7+ years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, and audio technology.",
   primary_cta_text: "Let’s Work",
   primary_cta_link: "https://linktr.ee/jameelmiller",
   secondary_cta_text: "View Projects",
@@ -108,10 +108,10 @@ export const defaultSkillCategories: SkillCategory[] = [
   {
     title: "Databases & Backend Services",
     icon: "database",
-    skills: ["PostgreSQL", "Supabase", "Firebase", "Appwrite"]
+    skills: ["PostgreSQL", "Supabase", "Appwrite"]
   },
   {
-    title: "DevOps & Cloud",
+    title: "Cloud & Deployment",
     icon: "cloud",
     skills: ["AWS", "EC2", "S3", "Lambda", "Docker", "GitHub", "CI/CD", "Terraform", "Vercel"]
   },

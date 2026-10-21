@@ -34,10 +34,12 @@ export function Experience() {
                       <Calendar className="h-4 w-4" />
                       {exp.period}
                     </div>
-                    <div className="flex items-center gap-2 text-muted-foreground">
-                      <MapPin className="h-4 w-4" />
-                      {exp.location}
-                    </div>
+                    {exp.location ? (
+                      <div className="flex items-center gap-2 text-muted-foreground">
+                        <MapPin className="h-4 w-4" />
+                        {exp.location}
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               </CardHeader>
