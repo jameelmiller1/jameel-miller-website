@@ -22,7 +22,7 @@ export const defaultHero: HeroContent = {
   name: "Jameel Miller",
   headline: "Full-Stack AI Software Developer & Audio Engineer",
   description:
-    "I’m an Amazon IT Support Technician with 6 years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, DevOps fundamentals, and audio technology.",
+    "I’m an Amazon IT Support Associate with 7+ years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, DevOps fundamentals, and audio technology.",
   primary_cta_text: "Let’s Work",
   primary_cta_link: "https://linktr.ee/jameelmiller",
   secondary_cta_text: "View Projects",
@@ -35,9 +35,8 @@ export const defaultHero: HeroContent = {
     { label: "Email", url: "mailto:millerjameel@gmail.com", icon: "mail" }
   ],
   stats: [
-    { value: "25+", label: "Projects" },
-    { value: "10+", label: "Years Exp" },
-    { value: "100%", label: "Client Satisfaction" }
+    { value: "20+", label: "Projects" },
+    { value: "7+", label: "Years Exp" }
   ]
 };
 
@@ -65,20 +64,20 @@ export const defaultProjects: Project[] = [
   {
     title: "Designs By Riah Website",
     description:
-      "Comprehensive CI/CD pipeline automation using Jenkins, Docker, and Kubernetes. Reduced deployment time by 70% and improved system reliability.",
+      "Event-planning business site built with React, Vite, TypeScript and Tailwind, with an AI booking assistant (OpenAI) that gathers event details and a Supabase-backed admin dashboard for editing content, photos and booking forms.",
     image_url: "/projects/riah-preview.webp",
-    technologies: ["Jenkins", "Docker", "Kubernetes", "Terraform", "AWS"],
+    technologies: ["React", "TypeScript", "Tailwind", "Supabase", "OpenAI", "Vercel"],
     github_url: "#",
-    demo_url: "#"
+    demo_url: "https://www.designsbyriah.com"
   },
   {
     title: "Valley Dad Society Website",
     description:
-      "Interactive dashboard for real-time data visualization using React and Firebase. Handles thousands of concurrent users with live updates.",
+      "Community website for a fathers' meetup and wellness group, built with Next.js, TypeScript and Tailwind, with Stripe checkout for merch and donations and a Supabase-backed admin for events and shop items.",
     image_url: "/projects/vds-preview.webp",
-    technologies: ["React", "Firebase", "Chart.js", "WebSocket", "TypeScript"],
+    technologies: ["Next.js", "TypeScript", "Tailwind", "Stripe", "Supabase", "Vercel"],
     github_url: "#",
-    demo_url: "#"
+    demo_url: "https://valleydadsociety.com"
   }
 ];
 
@@ -165,31 +164,40 @@ export type ExperienceItem = {
 // Experience timeline: keep concise and outcomes-focused.
 export const defaultExperiences: ExperienceItem[] = [
   {
-    title: "IT Support Specialist",
-    company: "Amazon.com Inc.",
-    location: "Multiple US Locations",
-    period: "2022 - Present",
+    title: "IT Support Associate II",
+    company: "Amazon",
+    location: "Cleveland, OH",
+    period: "Sep 2021 – Present",
     description:
-      "Lead full-stack development projects using React, Node.js, and TypeScript. Implemented CI/CD pipelines with Jenkins and managed containerized applications with Docker and Kubernetes.",
-    technologies: ["React", "Node.js", "TypeScript", "Docker", "Kubernetes", "Jenkins"]
+      "Windows laptop and desktop imaging, hardware and software troubleshooting through tickets, Windows and Linux support, Active Directory management, remote support, Cisco switch upgrades, and PDU/ATS/UPS replacement.",
+    technologies: ["Windows", "Linux", "Active Directory", "Cisco"]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Innovations Ltd.",
-    location: "New York, NY",
-    period: "2020 - 2022",
+    title: "Equipment Coordinator",
+    company: "Amazon",
+    location: "Euclid, OH",
+    period: "Jul 2019 – Sep 2021",
     description:
-      "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with DevOps team to implement automated deployment processes and infrastructure as code with Terraform.",
-    technologies: ["JavaScript", "Express.js", "Firebase", "Terraform", "Git"]
+      "Provisioned and repaired laptops, Kindles, handheld scanners and radios; managed assets, the spares pool and RMAs.",
+    technologies: ["Laptops", "Kindles", "Handheld scanners", "Radios"]
+  },
+  {
+    title: "Founder & Audio Engineer",
+    company: "Platinum Fader LLC",
+    location: "",
+    period: "2021 – Present",
+    description:
+      "Mixing, recording and production for artists, plus VST audio plugins in C++/JUCE. Producing, recording and mixing since 2016.",
+    technologies: ["C++", "JUCE"]
   },
   {
     title: "Audio Engineer",
-    company: "Freelance",
-    location: "Remote",
-    period: "2019 - 2020",
+    company: "Sunbird Studios & Technology",
+    location: "Cleveland, OH",
+    period: "2020 – 2022",
     description:
-      "Built responsive web applications and RESTful APIs. Worked with cross-functional teams using Agile methodologies to deliver high-quality software solutions.",
-    technologies: ["PHP", "JavaScript", "SQL", "Jest", "Agile"]
+      "Recording, audio routing, session templates and client relations.",
+    technologies: []
   }
 ];
 

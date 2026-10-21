@@ -23,8 +23,7 @@ export function Skills() {
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">Technical Skills</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive expertise across modern development stack with focus on 
-            scalable web applications and DevOps practices.
+            Technical skills in AI software development, web apps, and audio engineering.
           </p>
         </div>
         
