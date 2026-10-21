@@ -22,7 +22,7 @@ export const defaultHero: HeroContent = {
   name: "Jameel Miller",
   headline: "Full-Stack AI Software Developer & Audio Engineer",
   description:
-    "I’m an Amazon IT Support Associate with 7+ years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, and audio technology.",
+    "I’m an Amazon IT Support Associate with 8+ years of technical experience, currently pursuing Software Engineering and AI Engineering. I build modern web applications, AI-powered tools, and immersive digital experiences by combining software development, automation, and audio technology.",
   primary_cta_text: "Let’s Work",
   primary_cta_link: "https://linktr.ee/jameelmiller",
   secondary_cta_text: "View Projects",
@@ -36,7 +36,7 @@ export const defaultHero: HeroContent = {
   ],
   stats: [
     { value: "20+", label: "Projects" },
-    { value: "7+", label: "Years Exp" }
+    { value: "8+", label: "Years Exp" }
   ]
 };
 
@@ -180,6 +180,14 @@ export const defaultExperiences: ExperienceItem[] = [
     description:
       "Provisioned and repaired laptops, Kindles, handheld scanners and radios; managed assets, the spares pool and RMAs.",
     technologies: ["Laptops", "Kindles", "Handheld scanners", "Radios"]
+  },
+  {
+    title: "Associate",
+    company: "Amazon",
+    location: "",
+    period: "Oct 2018 – Jul 2019",
+    description: "Warehouse operations associate at Amazon before moving into the IT team.",
+    technologies: []
   },
   {
     title: "Founder & Audio Engineer",

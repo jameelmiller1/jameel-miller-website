@@ -13,7 +13,7 @@ export function Experience() {
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">Professional Experience</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            7+ years of technical experience in AI software development, web apps, and audio engineering.
+            8+ years of technical experience in AI software development, web apps, and audio engineering.
           </p>
         </div>
         
