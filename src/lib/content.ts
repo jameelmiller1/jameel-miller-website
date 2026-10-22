@@ -58,8 +58,8 @@ export const defaultProjects: Project[] = [
       "Agent engineering for your AI bots. spvce audits your agents, tests targeted improvements against a baseline, and applies changes only with your explicit approval. Available on the Grok Bot marketplace.",
     image_url: "/projects/spvce-preview.webp",
     technologies: ["AI Agents", "Grok Bot", "Evals", "Agent Skills"],
-    github_url: "#",
-    demo_url: "https://x.ai/bot/5pU_wYCiw_sbWEdr4nyYB"
+    github_url: "https://x.ai/bot/5pU_wYCiw_sbWEdr4nyYB",
+    demo_url: "https://spvce.dev"
   },
   {
     title: "Designs By Riah Website",
